@@ -58,11 +58,22 @@ Next, let's learn how to create our own repository.
 
 ## Creating a Repository
 
+***
+
+### GitHub Pages
+
 Before we create a repository, let's have a short sidebar.
 GitHub provides a feature called GitHub Pages, which is essentially a way you can host a website for free using a GitHub repository.
 A repository titled `<username>.github.io` will be accessible at that URL (provided you take some extra steps).
+
+***
+
 Let's begin by creating this repository.
-First, let's create a folder for your repository.
+First, go to GitHub and at the top right, click the (+) and click `New repository`.
+Use `<username>.github.io` for the name of the repository.
+Leave GitHub alone for a little while.
+
+Next, let's create a folder for your repository on your local computer from your terinal.
 For these examples, I will use `foo` as the example username.
 
 ```
@@ -91,7 +102,7 @@ Next, let's create a `README.md` file in our repository.
 Run the following command in your repository.
 
 ```
-$ echo "# Hello World!" >> README.md
+$ echo "# Hello World" >> README.md
 ```
 
 This command **echo**es text into (**>>**) a file called `README.md`.
